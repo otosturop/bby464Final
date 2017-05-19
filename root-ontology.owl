@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/Bh6jnvUpPFevcXprjTALBW#"
+     xml:base="http://webprotege.stanford.edu/project/Bh6jnvUpPFevcXprjTALBW"
+     xmlns:webprotege="http://webprotege.stanford.edu/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/Bh6jnvUpPFevcXprjTALBW"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJS2hFzXWfzYprfCYQtXA2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBJS2hFzXWfzYprfCYQtXA2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R82RP1P1fvfptYKNSCp0yjo"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL"/>
+        <rdfs:label>Ders_Alir</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDS40Yqvo0CahADMy0jDvE0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDS40Yqvo0CahADMy0jDvE0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDKwgQkvhHWTgicREDm8XTt"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL"/>
+        <rdfs:label>ogretir</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbbYPlpkpn16i7X7Sasr7M -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RbbYPlpkpn16i7X7Sasr7M">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDKwgQkvhHWTgicREDm8XTt"/>
+        <rdfs:range rdf:resource="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL"/>
+        <rdfs:label>Not_Verir</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDDdSz0dWjnptUk7yDiRWPY -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDDdSz0dWjnptUk7yDiRWPY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label>yoklamali</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOR51czGM5ma3Xk9pe4SG6 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDOR51czGM5ma3Xk9pe4SG6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label>kredili</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R2r4X7vfgBreJal5AXdaKi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R2r4X7vfgBreJal5AXdaKi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l"/>
+        <rdfs:label>Egitim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rzDT3q4OEzlREXEmjHpFa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7rzDT3q4OEzlREXEmjHpFa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL"/>
+        <rdfs:label>Matematik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82RP1P1fvfptYKNSCp0yjo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82RP1P1fvfptYKNSCp0yjo">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Ogrenci</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83HqEysw8NMJmiHgPHZue2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R83HqEysw8NMJmiHgPHZue2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muhendislik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Ders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Jlm6YTEYXvKNymAKvuJNT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Jlm6YTEYXvKNymAKvuJNT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R87R3lfTxLPLeyKFBRb26hL"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l"/>
+        <rdfs:label>Edebiyat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Fakulte</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9i41dYBbK0UakXcmxK3EpX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9i41dYBbK0UakXcmxK3EpX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l"/>
+        <rdfs:label>Hukuk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKwgQkvhHWTgicREDm8XTt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDKwgQkvhHWTgicREDm8XTt">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Ogretmen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVKImwcF2ufhj6j60SBZWj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVKImwcF2ufhj6j60SBZWj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PWM9PKYmCSF0n4onWTO0l"/>
+        <rdfs:label>Guzel_Sanatlar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8byxxoKo4IjEilpu5d6zEl -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8byxxoKo4IjEilpu5d6zEl">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDKwgQkvhHWTgicREDm8XTt"/>
+        <webprotege:RDS40Yqvo0CahADMy0jDvE0 rdf:resource="http://webprotege.stanford.edu/RBblgirvtaDKEF4ndWR0iMn"/>
+        <webprotege:RbbYPlpkpn16i7X7Sasr7M rdf:resource="http://webprotege.stanford.edu/RBblgirvtaDKEF4ndWR0iMn"/>
+        <rdfs:label xml:lang="tr">hoca2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9AFQbb58pAOnS9ma8bkpGE -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9AFQbb58pAOnS9ma8bkpGE">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R82RP1P1fvfptYKNSCp0yjo"/>
+        <webprotege:RBJS2hFzXWfzYprfCYQtXA2 rdf:resource="http://webprotege.stanford.edu/RBblgirvtaDKEF4ndWR0iMn"/>
+        <webprotege:RBJS2hFzXWfzYprfCYQtXA2 rdf:resource="http://webprotege.stanford.edu/RKBkWmcO5KBUUiMqfxDFdU"/>
+        <rdfs:label xml:lang="t">ogrenci1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBblgirvtaDKEF4ndWR0iMn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBblgirvtaDKEF4ndWR0iMn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8Jlm6YTEYXvKNymAKvuJNT"/>
+        <rdfs:label>Turk_Dili</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqGrs3A1j6hkE6L04fHDC3 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCqGrs3A1j6hkE6L04fHDC3">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R82RP1P1fvfptYKNSCp0yjo"/>
+        <webprotege:RBJS2hFzXWfzYprfCYQtXA2 rdf:resource="http://webprotege.stanford.edu/RBblgirvtaDKEF4ndWR0iMn"/>
+        <webprotege:RBJS2hFzXWfzYprfCYQtXA2 rdf:resource="http://webprotege.stanford.edu/Rx3713ouADMSIa9C1jQYVc"/>
+        <rdfs:label xml:lang="tr">ogrenci2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDg4OwPwLmUWy6SryYJSKDD -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDg4OwPwLmUWy6SryYJSKDD">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDKwgQkvhHWTgicREDm8XTt"/>
+        <webprotege:RDS40Yqvo0CahADMy0jDvE0 rdf:resource="http://webprotege.stanford.edu/RKBkWmcO5KBUUiMqfxDFdU"/>
+        <webprotege:RbbYPlpkpn16i7X7Sasr7M rdf:resource="http://webprotege.stanford.edu/RKBkWmcO5KBUUiMqfxDFdU"/>
+        <rdfs:label xml:lang="tr">hoca1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKBkWmcO5KBUUiMqfxDFdU -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKBkWmcO5KBUUiMqfxDFdU">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7rzDT3q4OEzlREXEmjHpFa"/>
+        <rdfs:label>Mat1-185</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rx3713ouADMSIa9C1jQYVc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/Rx3713ouADMSIa9C1jQYVc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7rzDT3q4OEzlREXEmjHpFa"/>
+        <rdfs:label>Cebir</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.3.1) https://github.com/owlcs/owlapi -->
+
